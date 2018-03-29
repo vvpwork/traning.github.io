@@ -1,1 +1,1 @@
-# tranning.github.io
+# traning.github.io
