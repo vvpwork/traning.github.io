@@ -1,0 +1,16 @@
+table, tr{
+    border-collapse:separate;
+    width: 100%;
+}
+
+td {
+    /* outline: 1px solid red; */
+    border-right: 2px solid grey;
+    padding: 5px;
+    width: 10%;
+}
+
+td:nth-child(2){
+    width:35vh;
+    padding: 0;
+}
