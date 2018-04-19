@@ -1,16 +1,99 @@
-table, tr{
-    border-collapse:separate;
+
+body{
+    font: 400 15px 'roboto';
+    line-height: 1;
+    color: dimgray;
+}
+img{
+    display: block;
     width: 100%;
+    height: auto;
+}
+.main-header{
+    padding-top: 15px;
+}
+.site-header {
+    font: 700 25px 'Roboto', 'sans-serif';
+    text-transform: uppercase;
+    text-align: center;
+    color: #6E5E6E;
+    margin-bottom: 15px;
+
 }
 
-td {
-    /* outline: 1px solid red; */
-    border-right: 2px solid grey;
-    padding: 5px;
-    width: 10%;
+.wrapper-logo{
+    width: 100px;
+    margin: 0 auto;
 }
 
-td:nth-child(2){
-    width:35vh;
-    padding: 0;
+.logo-peach {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
+
+.rules-list {
+margin: 0 auto;
+font: 600 18px 'roboto', 'sans-serif';
+color: #6E6E6E;
+text-align: center;
+list-style: none;
+width: 350px;
+}
+
+.rules-items:not(:last-child){
+    margin-bottom: 10px;
+}
+.rules-list h3 {
+    color: firebrick;
+    text-transform: uppercase;
+    margin-bottom:10px;
+}
+
+.rules-section{
+    margin-bottom: 15px;
+    padding: 5px 30px;
+}
+
+.programm-section h2, .programm-section h3  {
+    text-align: center;
+    color:  #6E5E6E;
+    margin-bottom: 15px;
+}
+
+.programm-section{
+    margin-bottom: 30px;
+}
+
+.programm-items{
+    list-style: none;
+    width: 350px;
+    margin: 0 auto 20px auto;
+}
+.programm-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quantity-list{
+    margin: 0 auto;
+    width: 200px;
+    color: darkred;
+    font-weight: 600;
+    list-style: none;  
+
+}
+.quantity-items > span{
+    font: 600 16px 'roboto';
+    color: #6E6E6E;
+}
+
+.end{
+    font:600 20px 'roboto';
+    text-align: center;
+    margin-bottom: 50px;
+    color: darkred;
+}
+
+
